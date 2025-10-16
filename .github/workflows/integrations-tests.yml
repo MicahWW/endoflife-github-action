@@ -62,7 +62,7 @@ jobs:
       graylog_end_of_life: "${{ steps.graylog.outputs.end_of_life }}"
       graylog_version: "${{ steps.graylog.outputs.version }}"
       python_end_of_life: "${{ steps.python.outputs.end_of_life }}"
-      python_version: "${{ steps.python.outputs.version}}"
+      python_version: "${{ steps.python.outputs.version }}"
 
   assert:
     runs-on: ubuntu-latest
